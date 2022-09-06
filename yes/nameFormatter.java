@@ -10,7 +10,7 @@ public class nameFormatter
     public static void main(String args[])
     {
         // create strings
-        String name, first, middle, last;
+        String name, first, middle, last, fullname;
         
         // create scanner
         Scanner scanner = new Scanner(System.in);
@@ -29,8 +29,8 @@ public class nameFormatter
         // get last name by slicing string from last occurence of space to the end of the string
         last = new String(name.substring(name.lastIndexOf(" ") + 1, name.length()));
         
+        fullname = new String("\n" + first + middle + "\n" + last);
         // print data to user
-        System.out.println("\n" + first + middle);
-        System.out.print(last);
+        System.out.print(fullname);
     }
 }
