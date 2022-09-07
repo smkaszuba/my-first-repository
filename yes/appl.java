@@ -1,8 +1,7 @@
 // Mitchell Kaszuba
 // 9/1/22
-// random phone number maker
-// makes random phones numbers
-// import math
+// applet doer
+// makes square using applet
 import java.applet.*;
 import java.awt.*;
 

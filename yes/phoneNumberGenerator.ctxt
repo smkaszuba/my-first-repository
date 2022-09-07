@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=randomPhoneNumber
+comment0.target=phoneNumberGenerator
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
