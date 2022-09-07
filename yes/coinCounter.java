@@ -31,7 +31,7 @@ public class coinCounter
     System.out.print("Enter # of quarters: ");
     quarters = scanner.nextInt();
     
-    // calculate the amount of coins into cents
+    // calculate the amount of coins into dollars
     pennieAmt = pennies * .01;
     
     nickleAmt = nickles * .05;
@@ -44,6 +44,6 @@ public class coinCounter
     total = pennieAmt + nickleAmt + dimeAmt + quarterAmt;
     
     // print info to user with formatter
-    System.out.print("\ntotal amount in dollars: " + dollar.format(total));
+    System.out.print("\nTotal amount in dollars: " + dollar.format(total));
     }
 }
